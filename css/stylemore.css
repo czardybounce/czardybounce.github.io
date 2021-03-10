@@ -1,0 +1,95 @@
+body {
+  width: 100%;
+  background: url(/portfolio/gory2.png) no-repeat center center fixed;
+  background-color: #cccccc;
+  background-size: cover;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav {
+  width: 100vw;
+  padding: 10px;
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+  text-decoration: none;
+  color: #575252;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin: 0 2vw;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+a:hover {
+  background-color: #cec7c7;
+}
+
+@media (max-width: 800px) {
+  ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+button {
+  display: block;
+  padding: 2vw;
+  font-size: 3vh;
+  background-color: #9aa0a3;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section div {
+  height: 50vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .content {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px;
+}
+
+.logo {
+  width: 50%;
+  height: 25vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=stylemore.css.map */

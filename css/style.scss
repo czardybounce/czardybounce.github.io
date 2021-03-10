@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    background: url(../portfolio/gory2.png) no-repeat center center fixed ;
+    background-color: #cccccc;
+    background-size: cover;
+    // filter: blur(15px);
+    // -webkit-filter: blur(15px);
+}
+.container{
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+    
+    div{
+        text-align: center;
+        font-size: 3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(82, 78, 78)
+
+    }
+}
+a{
+    text-decoration: none;
+    color: rgb(78, 72, 72);
+}
+.see{
+    font-style: italic;
+}
