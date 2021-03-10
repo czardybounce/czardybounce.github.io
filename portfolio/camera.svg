@@ -11,17 +11,17 @@
 	.st5{font-family:'Playbill';}
 	.st6{font-size:19.3375px;}
 </style>
-<path id="XMLID_1_" class="st0" d="M18.6,80.4h69.2V35.8h-66c-4.9,0-8.9,4-8.9,8.9v30C12.9,77.9,15.4,80.4,18.6,80.4z"/>
-<circle id="XMLID_2_" class="st1" cx="59" cy="58.8" r="17.5"/>
-<path id="XMLID_3_" class="st0" d="M69,35.9h14.7v-6.6c0-1.5-1.2-2.7-2.7-2.7h-9.4c-1.5,0-2.7,1.2-2.7,2.7V35.9z"/>
-<polygon id="XMLID_4_" class="st0" points="41.2,35.9 59.5,35.9 58.5,22.7 42.2,22.7 "/>
-<rect id="XMLID_5_" x="45.5" y="25" class="st0" width="9.6" height="8.7"/>
-<path id="XMLID_6_" class="st0" d="M18.2,80.5h14.3V37.7c0-3.5-2.9-6.4-6.4-6.4h-4.7c-4.9,0-8.9,4-8.9,8.9v34.6
-	C12.6,77.9,15.1,80.5,18.2,80.5z"/>
-<circle id="XMLID_7_" class="st2" cx="58.9" cy="58.5" r="14.6"/>
-<circle id="XMLID_8_" class="st1" cx="59.2" cy="59.1" r="7"/>
-<path id="XMLID_9_" class="st3" d="M64.2,61.6c0,0,1.2-3.3,0-5.8"/>
+<path id="XMLID_1_" class="st0" d="M17.9,73.8h69.2V29.2h-66c-4.9,0-8.9,4-8.9,8.9v30C12.2,71.3,14.7,73.8,17.9,73.8z"/>
+<circle id="XMLID_2_" class="st1" cx="58.3" cy="52.2" r="17.5"/>
+<path id="XMLID_3_" class="st0" d="M68.3,29.3H83v-6.6c0-1.5-1.2-2.7-2.7-2.7h-9.4c-1.5,0-2.7,1.2-2.7,2.7L68.3,29.3L68.3,29.3z"/>
+<polygon id="XMLID_4_" class="st0" points="40.5,29.3 58.8,29.3 57.8,16.1 41.5,16.1 "/>
+<rect id="XMLID_5_" x="44.8" y="18.4" class="st0" width="9.6" height="8.7"/>
+<path id="XMLID_6_" class="st0" d="M17.5,73.9h14.3V31.1c0-3.5-2.9-6.4-6.4-6.4h-4.7c-4.9,0-8.9,4-8.9,8.9v34.6
+	C11.9,71.3,14.4,73.9,17.5,73.9z"/>
+<circle id="XMLID_7_" class="st2" cx="58.2" cy="51.9" r="14.6"/>
+<circle id="XMLID_8_" class="st1" cx="58.5" cy="52.5" r="7"/>
+<path id="XMLID_9_" class="st3" d="M63.5,55c0,0,1.2-3.3,0-5.8"/>
 <rect id="XMLID_10_" x="28.3" y="82.7" class="st4" width="77.9" height="12.9"/>
 <rect id="XMLID_13_" x="27.8" y="84.6" class="st4" width="55.1" height="2.3"/>
-<text id="XMLID_15_" transform="matrix(2.1069 0 0 1 12.5566 96.6269)" class="st5 st6">PHOTOS</text>
+<text id="XMLID_15_" transform="matrix(2.1069 0 0 1 12.8832 90.9329)" class="st5 st6">PHOTOS</text>
 </svg>

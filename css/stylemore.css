@@ -39,7 +39,7 @@ li {
 }
 
 a:hover {
-  background-color: #cec7c7;
+  background-color: #d6d1cb;
 }
 
 @media (max-width: 800px) {
@@ -71,18 +71,33 @@ section {
 }
 
 section div {
-  height: 80vh;
+  height: 50vh;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  border: 5px solid black;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+@media (max-width: 800px) {
+  section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
+  }
+}
+
 section .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -101,5 +116,15 @@ section .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
 }
 /*# sourceMappingURL=stylemore.css.map */

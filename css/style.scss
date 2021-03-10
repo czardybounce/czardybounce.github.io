@@ -7,14 +7,16 @@ body{
     // -webkit-filter: blur(15px);
 }
 .container{
-    position:absolute;
+    position:fixed;
     top: 30%;
     left: 50%;
     width:30em;
     height:18em;
     margin-top: -9em;
     margin-left: -15em; 
-    
+    justify-content: center;
+    display: flex;
+   
     div{
         text-align: center;
         font-size: 3rem;
@@ -25,8 +27,12 @@ body{
 }
 a{
     text-decoration: none;
-    color: rgb(78, 72, 72);
+    color: rgb(122, 111, 111);
 }
 .see{
     font-style: italic;
+}
+@media (max-width:800px){
+    .container{
+        display: flex;
 }
