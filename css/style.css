@@ -13,11 +13,14 @@ body {
   height: 18em;
   margin-top: -9em;
   margin-left: -15em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container div {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #524e4e;
 }
@@ -29,5 +32,14 @@ a {
 
 .see {
   font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .container {
+    margin-top: 30px;
+  }
+  .container div {
+    font-size: 1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

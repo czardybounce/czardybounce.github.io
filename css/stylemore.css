@@ -92,6 +92,9 @@ section div {
             align-items: center;
     margin-bottom: 20px;
   }
+  section header nav {
+    color: black;
+  }
 }
 
 section .content {

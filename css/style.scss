@@ -7,7 +7,7 @@ body{
     // -webkit-filter: blur(15px);
 }
 .container{
-    position:fixed;
+    position:absolute;
     top: 30%;
     left: 50%;
     width:30em;
@@ -15,11 +15,10 @@ body{
     margin-top: -9em;
     margin-left: -15em; 
     justify-content: center;
-    display: flex;
-   
+    
     div{
         text-align: center;
-        font-size: 3rem;
+        font-size: 3em;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: rgb(82, 78, 78)
 
@@ -27,12 +26,18 @@ body{
 }
 a{
     text-decoration: none;
-    color: rgb(122, 111, 111);
+    color: rgb(78, 72, 72);
 }
 .see{
     font-style: italic;
 }
 @media (max-width:800px){
     .container{
-        display: flex;
+        margin-top: 30px;
+        div{
+            font-size: 1em;
+        }
+    
+
+}
 }
