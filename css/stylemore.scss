@@ -49,10 +49,11 @@ section{
     justify-content: center;
     display: flex;
     div{
-        height: 50vh;
+        height: 80vh;
         text-align: center;
         display: flex;
-        // border: 5px solid black;
+        border: 5px solid black;
+        align-items: center
         ;
 
     }
@@ -66,4 +67,7 @@ section{
     height: 25vh;
     justify-content: center;
 
+}
+.www{
+    display: flex;
 }

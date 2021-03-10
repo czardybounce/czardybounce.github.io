@@ -71,11 +71,15 @@ section {
 }
 
 section div {
-  height: 50vh;
+  height: 80vh;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border: 5px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section .content {
@@ -91,5 +95,11 @@ section .content {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.www {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=stylemore.css.map */
