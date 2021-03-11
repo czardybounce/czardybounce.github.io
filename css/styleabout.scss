@@ -1,13 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+html,body{margin:0;padding:0;}
+img{max-width:100%;}
+
 body{
     width: 100%;
-    background: url(/portfolio/gory2-min.png) no-repeat center center fixed ;
+    background: url(/portfolio/gory2.png) no-repeat center center fixed ;
     background-color: #cccccc;
     background-size: cover;
 }
-
 header{
     display: flex;
-    position: sticky top 0;
 
     nav{
         width: 100vw;
@@ -33,37 +37,58 @@ a:hover{
     background-color: rgb(214, 209, 203);
 }
 @media(max-width:800px){
-    
+    header{
+        a{
+            color: black;
+        }
+    }
     ul{
         flex-direction: column;
     }
 }
-.container{
+
+button{
+    display: block;
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #9aa0a3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+section{
+    justify-content: center;
+    display: flex;
+    div{
+        height: 50vh;
+        text-align: center;
         display: flex;
-        max-height: 70vh;
-        justify-content: center;
-        margin-top: 100px;
-        width: 70%;
-        div{
-        width: 50%;
-        font-size: 1rem;
-        color: rgb(68, 66, 62);
-        font-family:'Times New Roman', Times, serif;
-        text-align: justify;
-        margin: 50px;
-        
-     
-        
+        align-items: center
+        ;
+
+    }
+@media (max-width:800px){
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
     }
 }
-@media(max-width:800px){
-    .container{
-        flex-direction: column;
-        div{
-        font-size: 1em;
-        text-align: justify;
-        }
-    }
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}    
+
+.logo{
+    width: 50%;
+    height: 25vh;
+    justify-content: center;
+
+}
+.www{
+    display: flex;
 }
 footer{
     text-align: center;

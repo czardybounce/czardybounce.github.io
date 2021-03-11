@@ -1,6 +1,20 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
 body {
   width: 100%;
-  background: url(/portfolio/gory2-min.png) no-repeat center center fixed;
+  background: url(/portfolio/gory2.png) no-repeat center center fixed;
   background-color: #cccccc;
   background-size: cover;
 }
@@ -9,8 +23,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: -webkit-sticky top 0;
-  position: sticky top 0;
 }
 
 header nav {
@@ -45,6 +57,9 @@ a:hover {
 }
 
 @media (max-width: 800px) {
+  header a {
+    color: black;
+  }
   ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -53,38 +68,71 @@ a:hover {
   }
 }
 
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  max-height: 70vh;
+button {
+  display: block;
+  padding: 2vw;
+  font-size: 3vh;
+  background-color: #9aa0a3;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 100px;
-  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.container div {
-  width: 50%;
-  font-size: 1rem;
-  color: #44423e;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: justify;
-  margin: 50px;
+section div {
+  height: 50vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 800px) {
-  .container {
+  section {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 20px;
   }
-  .container div {
-    font-size: 1em;
-    text-align: justify;
-  }
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 50px;
+}
+
+.logo {
+  width: 50%;
+  height: 25vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.www {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 footer {
