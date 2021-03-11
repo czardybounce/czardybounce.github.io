@@ -1,15 +1,10 @@
 body{
     width: 100%;
-    background: url(/portfolio/gory2.png) no-repeat center center fixed ;
+    background: url(/portfolio/gory2-min.png) no-repeat center center fixed ;
     background-color: #cccccc;
     background-size: cover;
 }
-body{
-    width: 100%;
-    background: url(/portfolio/gory2.png) no-repeat center center fixed ;
-    background-color: #cccccc;
-    background-size: cover;
-}
+
 header{
     display: flex;
     position: sticky top 0;
@@ -51,7 +46,7 @@ a:hover{
         width: 70%;
         div{
         width: 50%;
-        font-size: 2rem;
+        font-size: 1rem;
         color: rgb(68, 66, 62);
         font-family:'Times New Roman', Times, serif;
         text-align: justify;
