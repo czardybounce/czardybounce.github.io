@@ -73,10 +73,8 @@ main div{
     }
 }
 @media(max-width:800px){
-    .portrait div{
-        
-        justify-content: center;
-        display: flex;
+    main div{
         flex-direction: column;
     }
-}
+    }
+
