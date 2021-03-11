@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+html,body{margin:0;padding:0;}
+img{max-width:100%;}
+
+body{
+    width: 100%;
+    background: url(/portfolio/gory2-min.png) no-repeat center center fixed ;
+    background-color: #cccccc;
+    background-size: cover;
+}
+header{
+    display: flex;
+
+    nav{
+        width: 100vw;
+        padding: 10px;
+        font-size: 3rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+a{
+    text-decoration: none;
+    color: rgb(87, 82, 82);
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 2vw;
+    flex: 3;
+}
+a:hover{
+    background-color: rgb(214, 209, 203);
+}
+@media(max-width:800px){
+    header{
+        a{
+            color: black;
+        }
+    }
+    ul{
+        flex-direction: column;
+    }
+}
+
+button{
+    display: block;
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: #9aa0a3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
