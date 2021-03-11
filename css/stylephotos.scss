@@ -6,7 +6,6 @@ body{
 }
 header{
     display: flex;
-    position: sticky top:0;
 
     nav{
         width: 100vw;
@@ -56,6 +55,9 @@ main div{
 .title1{
     color: rgb(56, 51, 43);
     text-align: center;
+    margin-top: 40px;
+    font-size: 2rem;
+    padding-top: 30px;
 }
 .landscape{
     display: flex;
@@ -63,6 +65,7 @@ main div{
     height: 50vh;
     align-items: center;
     justify-content: space-between;
+    margin-top: 100px;
    
     div{
         width: 30%;
@@ -70,8 +73,10 @@ main div{
     }
 }
 @media(max-width:800px){
-    .container div{
-        display: block;
+    .portrait div{
+        
+        justify-content: center;
+        display: flex;
         flex-direction: column;
     }
 }
